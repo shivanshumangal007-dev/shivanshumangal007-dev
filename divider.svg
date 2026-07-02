@@ -1,0 +1,22 @@
+<svg width="1600" height="32" viewBox="0 0 1600 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      <![CDATA[
+        .track { animation: fadeTrack 4s ease-in-out infinite; }
+        @keyframes fadeTrack { 0%,100% { opacity: 0.4; } 50% { opacity: 0.9; } }
+        .dot { transform-box: fill-box; animation: travel 9s ease-in-out infinite; }
+        @keyframes travel {
+          0%, 100% { transform: translateX(0px);    opacity: 0.2; }
+          50%      { transform: translateX(1408px); opacity: 0.9; }
+        }
+      ]]>
+    </style>
+  </defs>
+  <rect class="track" x="0" y="14.5" width="1600" height="1" fill="url(#divGrad)"/>
+  <circle class="dot" cx="96" cy="15" r="2.5" fill="#F5F5F7"/>
+</svg>

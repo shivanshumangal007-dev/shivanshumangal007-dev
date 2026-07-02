@@ -1,0 +1,49 @@
+<svg width="1600" height="160" viewBox="0 0 1600 160" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Matches header.svg design tokens: near-black, graphite, off-white only -->
+  <defs>
+    <linearGradient id="bgF" x1="0%" y1="0%" x2="35%" y2="100%">
+      <stop offset="0%"  stop-color="#0C0C0E"/>
+      <stop offset="100%" stop-color="#050506"/>
+    </linearGradient>
+    <linearGradient id="hairlineFadeF" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frameF">
+      <rect x="2" y="2" width="1596" height="156" rx="24"/>
+    </clipPath>
+    <style>
+      <![CDATA[
+        .sans { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", Helvetica, Arial, sans-serif; }
+        .dot  { animation: pulseF 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+        @keyframes pulseF {
+          0%, 100% { opacity: 0.35; transform: scale(1); }
+          50%      { opacity: 1;    transform: scale(1.6); }
+        }
+        .shimmerF { transform-box: fill-box; animation: shimmerMoveF 8s ease-in-out infinite; }
+        @keyframes shimmerMoveF {
+          0%   { transform: translateX(0px);    opacity: 0; }
+          12%  { opacity: 0.9; }
+          88%  { opacity: 0.9; }
+          100% { transform: translateX(1248px); opacity: 0; }
+        }
+      ]]>
+    </style>
+  </defs>
+
+  <g clip-path="url(#frameF)">
+    <rect width="1600" height="160" fill="url(#bgF)"/>
+  </g>
+  <rect x="1.5" y="1.5" width="1597" height="157" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <line x1="96" y1="34" x2="1504" y2="34" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+  <rect class="shimmerF" x="96" y="33.25" width="160" height="1.5" fill="url(#hairlineFadeF)"/>
+
+  <g class="sans" text-anchor="middle">
+    <circle class="dot" cx="800" cy="76" r="2.5" fill="#F5F5F7"/>
+    <text x="800" y="106" font-size="19" font-weight="500" fill="#E5E5EA">Thanks for reading this far &#8212; let&#8217;s build something real.</text>
+    <text x="800" y="134" font-size="12" letter-spacing="3" fill="#6E6E73">OPEN&#160;TO&#160;COLLABORATION&#160;&#183;&#160;ALWAYS&#160;SHIPPING</text>
+  </g>
+</svg>

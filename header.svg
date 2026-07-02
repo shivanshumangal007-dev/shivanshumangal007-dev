@@ -1,0 +1,126 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ============================================================
+       DESIGN TOKENS
+       Palette: near-black / graphite / off-white only.
+       No accent color — the only "color" here is light.
+       ============================================================ -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="35%" y2="100%">
+      <stop offset="0%"  stop-color="#0C0C0E"/>
+      <stop offset="100%" stop-color="#050506"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="12%" cy="8%" r="60%">
+      <stop offset="0%"  stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="hairlineFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="frame">
+      <rect x="2" y="2" width="1596" height="496" rx="28"/>
+    </clipPath>
+
+    <style>
+      <![CDATA[
+        .sans   { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", Helvetica, Arial, sans-serif; }
+        .mono   { font-family: "SF Mono", "JetBrains Mono", "Fira Code", ui-monospace, Menlo, Consolas, monospace; }
+
+        /* one rotating command visible at a time, in sequence */
+        .cmd {
+          opacity: 0;
+          animation: cmdCycle 18s linear infinite;
+        }
+        .cmd:nth-child(1) { animation-delay: 0s;   }
+        .cmd:nth-child(2) { animation-delay: -3s;  }
+        .cmd:nth-child(3) { animation-delay: -6s;  }
+        .cmd:nth-child(4) { animation-delay: -9s;  }
+        .cmd:nth-child(5) { animation-delay: -12s; }
+        .cmd:nth-child(6) { animation-delay: -15s; }
+
+        @keyframes cmdCycle {
+          0%   { opacity: 0; }
+          1%   { opacity: 0; }
+          3%   { opacity: 1; }
+          14%  { opacity: 1; }
+          16%  { opacity: 0; }
+          100% { opacity: 0; }
+        }
+
+        .cursor {
+          animation: blink 1s steps(2, start) infinite;
+        }
+        @keyframes blink {
+          0%, 49%   { opacity: 1; }
+          50%, 100% { opacity: 0; }
+        }
+
+        .shimmer {
+          transform-box: fill-box;
+          animation: shimmerMove 8s ease-in-out infinite;
+        }
+        @keyframes shimmerMove {
+          0%   { transform: translateX(0px);    opacity: 0; }
+          12%  { opacity: 0.9; }
+          88%  { opacity: 0.9; }
+          100% { transform: translateX(1248px); opacity: 0; }
+        }
+      ]]>
+    </style>
+  </defs>
+
+  <!-- ============================================================
+       BACKGROUND
+       ============================================================ -->
+  <g clip-path="url(#frame)">
+    <rect width="1600" height="500" fill="url(#bg)"/>
+    <rect width="1600" height="500" fill="url(#glow)"/>
+  </g>
+  <rect x="1.5" y="1.5" width="1597" height="497" rx="28" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <!-- ============================================================
+       MONOGRAM MARK — top right, quiet compositional anchor
+       ============================================================ -->
+  <g class="monogram" font-family="-apple-system, 'SF Pro Display', 'Inter', sans-serif">
+    <rect x="1450" y="56" width="76" height="76" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="1488" y="102" text-anchor="middle" font-size="24" font-weight="600" letter-spacing="1" fill="#FFFFFF" fill-opacity="0.55">SM</text>
+  </g>
+
+  <!-- ============================================================
+       IDENTITY BLOCK
+       ============================================================ -->
+  <g class="sans">
+    <rect x="90" y="141" width="6" height="6" fill="#FFFFFF" fill-opacity="0.55"/>
+    <text x="108" y="150" font-size="15" letter-spacing="4" fill="#8E8E93">FULL&#160;STACK&#160;ENGINEER</text>
+
+    <text x="93" y="250" font-size="96" font-weight="700" letter-spacing="-3" fill="#F5F5F7">Shivanshu Mangal</text>
+
+    <text x="96" y="300" font-size="22" font-weight="400" fill="#A1A1A6">Backend-first engineer. Building systems that ship.</text>
+  </g>
+
+  <!-- ============================================================
+       HAIRLINE + SHIMMER — the one deliberate line of motion
+       ============================================================ -->
+  <line x1="96" y1="352" x2="1504" y2="352" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
+  <rect class="shimmer" x="96" y="351.25" width="160" height="1.5" fill="url(#hairlineFade)"/>
+
+  <!-- ============================================================
+       TERMINAL SIGNATURE — rotating command, blinking cursor
+       ============================================================ -->
+  <g class="mono">
+    <text x="96" y="430" font-size="20" fill="#6E6E73">shivanshu<tspan fill="#4B4B4F">@</tspan>dev <tspan fill="#4B4B4F">~ $</tspan></text>
+
+    <g class="cmd"><text x="306" y="430" font-size="20" font-weight="500" fill="#E5E5EA">git push origin main</text><rect class="cursor" x="550" y="414" width="10" height="22" fill="#F5F5F7"/></g>
+    <g class="cmd"><text x="306" y="430" font-size="20" font-weight="500" fill="#E5E5EA">docker compose up</text><rect class="cursor" x="514" y="414" width="10" height="22" fill="#F5F5F7"/></g>
+    <g class="cmd"><text x="306" y="430" font-size="20" font-weight="500" fill="#E5E5EA">go build ./...</text><rect class="cursor" x="478" y="414" width="10" height="22" fill="#F5F5F7"/></g>
+    <g class="cmd"><text x="306" y="430" font-size="20" font-weight="500" fill="#E5E5EA">npm run deploy</text><rect class="cursor" x="478" y="414" width="10" height="22" fill="#F5F5F7"/></g>
+    <g class="cmd"><text x="306" y="430" font-size="20" font-weight="500" fill="#E5E5EA">ship --focus=impact</text><rect class="cursor" x="538" y="414" width="10" height="22" fill="#F5F5F7"/></g>
+    <g class="cmd"><text x="306" y="430" font-size="20" font-weight="500" fill="#E5E5EA">deploy --prod</text><rect class="cursor" x="466" y="414" width="10" height="22" fill="#F5F5F7"/></g>
+  </g>
+
+</svg>
