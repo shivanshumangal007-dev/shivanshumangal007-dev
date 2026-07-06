@@ -109,5 +109,4 @@ A production platform used by students at **IIIT Sonepat** to access previous ye
 <div align="center">
 <img src="./footer.svg" alt="footer" width="100%" />
 
-<img src="https://komarev.com/ghpvc/?username=shivanshumangal007-dev&style=for-the-badge&color=0d0d0f&label=PROFILE+VIEWS" />
 </div>
