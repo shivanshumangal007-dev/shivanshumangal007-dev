@@ -72,7 +72,7 @@ AI-powered misinformation detection. An Electron desktop app backed by a FastAPI
 ### ChitGit
 Chat with any GitHub repository. Indexes a repo's code and lets you ask questions about it in plain English.
 
-`FastAPI` `React` `TypeScript` `PostgreSQL` `Redis` `Qdrant` `OpenRouter` - **[Live: chit-git-prod.vercel.app](https://chit-git-prod.vercel.app/)**
+`FastAPI` `React` `TypeScript` `PostgreSQL` `Redis` `Qdrant` `OpenRouter` - **[Live: chit-git.vercel.app](https://chit-git.vercel.app/)**
 
 ---
 
