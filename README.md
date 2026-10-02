@@ -9,7 +9,7 @@
 Full-stack engineer, backend-first. I ship real products end to end — most recently **RealityLens**, an AI misinformation detector, and **ChitGit**, a RAG-powered tool for chatting with any GitHub repo. Right now I'm deliberately polishing architecture, system design, backend engineering, and distributed systems — the parts that don't show up in a demo.
 
 ```ts
-const shivanshu = {
+const Shivanshu = {
   role: "Full Stack Engineer",
   focus: "Backend-first, systems-minded",
   building: ["Production backend systems", "RAG-powered tooling", "Open source"],
