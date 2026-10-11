@@ -2,91 +2,100 @@
 
 <img src="./header.svg" alt="Shivanshu Mangal" width="100%" />
 
-</div>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=E5E5EA&center=true&vCenter=true&width=600&lines=system+builder+%E2%9A%99%EF%B8%8F;shipping+%3E+talking+%F0%9F%9A%80;code+with+intent+%E2%9C%A8;i+don't+ship+what+i+can't+explain" alt="typing" /></a>
 
 <br/>
 
-Full-stack engineer, backend-first. I ship real products end to end — most recently **RealityLens**, an AI misinformation detector, and **ChitGit**, a RAG-powered tool for chatting with any GitHub repo. Right now I'm deliberately polishing architecture, system design, backend engineering, and distributed systems — the parts that don't show up in a demo.
+`full-stack` · `systems-minded` · `open-source` · `iiit sonepat '29`
 
-```ts
-const Shivanshu = {
-  role: "Full Stack Engineer",
-  focus: "Backend-first, systems-minded",
-  building: ["Production backend systems", "RAG-powered tooling", "Open source"],
-  philosophy: "I don't ship what I can't explain",
-};
+</div>
+
+<img src="./divider.svg" width="100%" />
+
+### 👾 hey, i'm shivanshu
+
+i build stuff, break it, then figure out why it worked.
+architecture, system design and distributed systems are my happy place.
+the unglamorous parts that never show up in a demo? yeah, i love those.
+
+```bash
+~/shivanshu $ neofetch
+
+  role        →  full stack engineer / system builder
+  intern @    →  hashedtoken
+  studying    →  b.tech cs, iiit sonepat"29
+  open source →  Vlab-iiit-sonepat
+  vibe        →  shipping > talking
+  fuel        →  chai + stubbornness ☕
 ```
 
 <img src="./divider.svg" width="100%" />
 
-## ❯ tech-stack
+### 🚀 things i shipped
 
-**Languages & Core**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![JavaScript](https://img.shields.io/badge/JavaScript-0d0d0f?style=for-the-badge&logo=javascript&logoColor=e5e5ea)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d0d0f?style=for-the-badge&logo=typescript&logoColor=e5e5ea)
-![Python](https://img.shields.io/badge/Python-0d0d0f?style=for-the-badge&logo=python&logoColor=e5e5ea)
-![Go](https://img.shields.io/badge/Go-0d0d0f?style=for-the-badge&logo=go&logoColor=e5e5ea)
+#### 🔍 [RealityLens](https://realitylens.in)
+"is this even true?" in one click. an AI misinformation detector that scores posts for credibility in real time.
 
-**Frontend**
+`Electron` `FastAPI` `React`
 
-![React](https://img.shields.io/badge/React-0d0d0f?style=for-the-badge&logo=react&logoColor=e5e5ea)
-![HTML5](https://img.shields.io/badge/HTML5-0d0d0f?style=for-the-badge&logo=html5&logoColor=e5e5ea)
-![CSS3](https://img.shields.io/badge/CSS3-0d0d0f?style=for-the-badge&logo=css3&logoColor=e5e5ea)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0d0d0f?style=for-the-badge&logo=tailwindcss&logoColor=e5e5ea)
-![Vite](https://img.shields.io/badge/Vite-0d0d0f?style=for-the-badge&logo=vite&logoColor=e5e5ea)
+</td>
+<td width="50%" valign="top">
 
-**Backend**
+#### 💬 [ChitGit](https://chit-git.vercel.app/)
+chat with any github repo in plain english. RAG does the heavy lifting, you just ask.
 
-![Node.js](https://img.shields.io/badge/Node.js-0d0d0f?style=for-the-badge&logo=nodedotjs&logoColor=e5e5ea)
-![Express](https://img.shields.io/badge/Express-0d0d0f?style=for-the-badge&logo=express&logoColor=ffffff)
-![FastAPI](https://img.shields.io/badge/FastAPI-0d0d0f?style=for-the-badge&logo=fastapi&logoColor=e5e5ea)
+`FastAPI` `Qdrant` `Redis` `TypeScript`
 
-**Data & Infra**
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d0f?style=for-the-badge&logo=postgresql&logoColor=e5e5ea)
-![MongoDB](https://img.shields.io/badge/MongoDB-0d0d0f?style=for-the-badge&logo=mongodb&logoColor=e5e5ea)
-![Redis](https://img.shields.io/badge/Redis-0d0d0f?style=for-the-badge&logo=redis&logoColor=ffffff)
-![Qdrant](https://img.shields.io/badge/Qdrant-0d0d0f?style=for-the-badge&logoColor=e5e5ea)
-![Docker](https://img.shields.io/badge/Docker-0d0d0f?style=for-the-badge&logo=docker&logoColor=e5e5ea)
+#### 📚 [PYQHub](https://pyqhub-2-0.vercel.app/)
+real students at IIIT Sonepat use this to grab previous year papers. real users, real exam-week traffic.
 
-**Tools & Platforms**
+`Prisma` `PostgreSQL` `CI/CD`
 
-![Git](https://img.shields.io/badge/Git-0d0d0f?style=for-the-badge&logo=git&logoColor=e5e5ea)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d0d0f?style=for-the-badge&logo=githubactions&logoColor=e5e5ea)
-![Vercel](https://img.shields.io/badge/Vercel-0d0d0f?style=for-the-badge&logo=vercel&logoColor=ffffff)
-![Render](https://img.shields.io/badge/Render-0d0d0f?style=for-the-badge&logo=render&logoColor=e5e5ea)
-![Postman](https://img.shields.io/badge/Postman-0d0d0f?style=for-the-badge&logo=postman&logoColor=e5e5ea)
+</td>
+<td width="50%" valign="top">
 
-<img src="./divider.svg" width="100%" />
+#### 🧠 Redis, but i built it
+a Redis clone from scratch in Go, evolving into a Raft-based distributed KV store. consensus, but make it chaos.
 
-## ❯ projects
+`Go` `Raft` `Distributed Systems`
 
-### [RealityLens](https://realitylens.in)
-AI-powered misinformation detection. An Electron desktop app backed by a FastAPI service that scores posts for credibility in real time — built to make "is this true?" a one-click question.
-
-`Electron` `FastAPI` `Python` `React`   —   **[Live: realitylens.in](https://realitylens.in)**
-
----
-
-### ChitGit
-Chat with any GitHub repository. Indexes a repo's code and lets you ask questions about it in plain English.
-
-`FastAPI` `React` `TypeScript` `PostgreSQL` `Redis` `Qdrant` `OpenRouter` - **[Live: chit-git.vercel.app](https://chit-git.vercel.app/)**
-
----
-
-### PYQHub
-A production platform used by students at **IIIT Sonepat** to access previous year question papers.
-
-`JWT Auth` `Cloudinary` `PostgreSQL` `Prisma` `GitHub Actions` `CI/CD` - **[Live: pyqhub-2-0.vercel.app](https://pyqhub-2-0.vercel.app/)**
+</td>
+</tr>
+</table>
 
 <img src="./divider.svg" width="100%" />
 
-## ❯ github-stats
+### 🧰 toolbox
 
 <p align="center">
+<img src="https://skillicons.dev/icons?i=js,ts,py,go,rust,cpp,react,nextjs,tailwind,nodejs,express,fastapi,postgres,mongodb,redis,prisma,docker,git,vercel&theme=dark&perline=10" />
 </p>
+
+<img src="./divider.svg" width="100%" />
+
+### 🧬 how i roll
+
+```diff
++ ship first, polish loudly
++ understand it or don't merge it
++ systems over spaghetti
++ open source is home
+- tutorial hell
+- code i can't explain
+```
+
+<img src="./divider.svg" width="100%" />
+
+### 📊 the receipts
 
 <p align="center">
 <img src="https://streak-stats.demolab.com/?user=shivanshumangal007-dev&hide_border=true&background=00000000&ring=e5e5ea&fire=e5e5ea&currStreakLabel=e5e5ea&sideNums=a1a1a6&sideLabels=6e6e73&dates=6e6e73&currStreakNum=ffffff&stroke=e5e5ea" />
@@ -98,7 +107,9 @@ A production platform used by students at **IIIT Sonepat** to access previous ye
 
 <img src="./divider.svg" width="100%" />
 
-## ❯ connect
+### 📬 say hi
+
+got a wild idea or a gnarly backend problem? let's talk.
 
 <p align="center">
 <a href="https://www.linkedin.com/in/shivanshu-mangal-8a601b378/"><img src="https://img.shields.io/badge/LinkedIn-0d0d0f?style=for-the-badge&logo=linkedin&logoColor=e5e5ea" /></a>
@@ -108,5 +119,7 @@ A production platform used by students at **IIIT Sonepat** to access previous ye
 
 <div align="center">
 <img src="./footer.svg" alt="footer" width="100%" />
+
+<sub>built with intent · shipped with caffeine ☕</sub>
 
 </div>
