@@ -113,7 +113,7 @@ got a wild idea or a gnarly backend problem? let's talk.
 
 <p align="center">
 <a href="https://www.linkedin.com/in/shivanshu-mangal-8a601b378/"><img src="https://img.shields.io/badge/LinkedIn-0d0d0f?style=for-the-badge&logo=linkedin&logoColor=e5e5ea" /></a>
-<a href="https://portfolio-orpin-delta-mn8ung4k67.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d0d0f?style=for-the-badge&logo=vercel&logoColor=e5e5ea" /></a>
+<a href="https://shivanshu-dev.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d0d0f?style=for-the-badge&logo=vercel&logoColor=e5e5ea" /></a>
 <a href="https://github.com/shivanshumangal007-dev"><img src="https://img.shields.io/badge/GitHub-0d0d0f?style=for-the-badge&logo=github&logoColor=ffffff" /></a>
 </p>
 
